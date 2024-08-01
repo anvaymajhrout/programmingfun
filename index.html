@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Quotes and Jokes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="main-heading">Programming Fun</h1>
+        <div class="card" id="quote-card">
+            <div class="card-content">
+                <div class="card-title">Programming Quote</div>
+                <div class="card-para" id="quote-text">Loading quote...</div>
+                <button class="Btn" onclick="copyText('quote-text')">
+                    <div class="text">Copy</div>
+                    <div class="svgIcon">📋</div>
+                </button>
+            </div>
+        </div>
+        <div class="card" id="joke-card">
+            <div class="card-content">
+                <div class="card-title">Programming Joke</div>
+                <div class="card-para" id="joke-text">Loading joke...</div>
+                <button class="Btn" onclick="copyText('joke-text')">
+                    <div class="text">Copy</div>
+                    <div class="svgIcon">📋</div>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
